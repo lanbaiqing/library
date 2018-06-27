@@ -1,0 +1,18 @@
+<resources>
+    <string name="library_name">library</string>
+    <string name="dialog_text_confirm">确定</string>
+    <string name="dialog_text_cancel">取消</string>
+    <string name="dialog_text_title">温馨提示</string>
+    <string name="dialog_text_content">提示内容</string>
+    <string name="dialog_text_from_album_select">从相册选择</string>
+    <string name="dialog_text_photograph">拍照</string>
+    <string name="dialog_text_please_wait">请稍后</string>
+    <string name="dialog_text_count">0 / 100%</string>
+    <string name="albums_browser_text_select">选择</string>
+    <string name="albums_browser_text_finish">完成</string>
+    <string name="albums_browser_text_title">选择图片</string>
+    <string name="albums_browser_text_all">全部图片</string>
+    <string name="albums_browser_text_preview">预览</string>
+    <string name="albums_browser_text_count">0 / 100%</string>
+    <string name="albums_browser_text_scan">正在扫描文件 ...</string>
+</resources>

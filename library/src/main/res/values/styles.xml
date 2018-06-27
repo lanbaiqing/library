@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="dialog_anim_translate_bottom_to_top">
+        <item name="android:windowEnterAnimation">@anim/anim_translate_one_from_bottom_to_top</item>
+        <item name="android:windowExitAnimation">@anim/anim_translate_one_from_top_to_bottom</item>
+    </style>
+    <style name="dialog_anim_translate_top_to_bottom">
+        <item name="android:windowEnterAnimation">@anim/anim_translate_two_from_top_to_bottom</item>
+        <item name="android:windowExitAnimation">@anim/anim_translate_two_from_bottom_to_top</item>
+    </style>
+    <style name="dialog_anim_rotate_left_to_right">
+        <item name="android:windowEnterAnimation">@anim/anim_rotate_from_left_to_right</item>
+        <item name="android:windowExitAnimation">@anim/anim_rotate_from_right_to_left</item>
+    </style>
+    <style name="dialog_style" parent="Theme.AppCompat.Dialog">
+        <!--窗口无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--窗口边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--窗口是否悬浮-->
+        <item name="android:windowIsFloating">true</item>
+        <!--窗口是否透明-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--窗口背景-->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!--窗口内容覆盖-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--窗口动画样式-->
+        <item name="android:windowAnimationStyle">@null</item>
+        <!--背景模糊启用-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--背景模糊数量-->
+        <item name="android:backgroundDimAmount">0.2</item>
+    </style>
+    <style name="horizontal_blue_progress_bar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/style_horizontal_blue_progress_bar</item>
+        <item name="android:maxHeight">2dp</item>
+        <item name="android:minHeight">2dp</item>
+    </style>
+    <style name="style_checkbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/style_checkbox</item>
+    </style>
+
+</resources>
